@@ -153,6 +153,56 @@ text-align: center;
 }
 }
 </style>
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title</title>
+  <style>
+    #timer {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    /* Adicionei as mesmas propriedades CSS do botão antigo */
+    .a-btn {
+      text-decoration: none;
+      background-color: #3E3E3E;
+      border-radius: 3px;
+      color: #fff;
+      display: inline-block;
+      padding: 10px 20px;
+    }
+    .span-btn {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .span-btn2 {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Temporizador -->
+  <div id="timer">
+    <p id="time">00:00:00</p>
+  </div>
+  <!-- Botão -->
+  <div id="cta1" class="mt-4 d-none">
+    <a href="https://pay.kiwify.com.br/dj2J7Si" class="a-btn">
+      <span class="span-btn">QUERO ELIMINAR A CALVÍCIE</span>
+      <span class="span-btn2">(Adicionar ao Carrinho)</span>
+    </a>
+  </div>
+  <!-- Script para mostrar o botão após 5 segundos -->
+  <script>
+    setTimeout(function() {
+      document.querySelector("#cta1").classList.remove("d-none");
+    }, 5000);
+  </script>
+</body>
+</html>
+
 <div class="description-1658581519684A04PEd-element ">
 <h3>
 🔊 Por favor, certifique-se que o som está ligado.
